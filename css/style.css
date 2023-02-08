@@ -28,18 +28,68 @@ body {
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
 }
 
 /* HEADER */
-header {
-    /* debug */
-    height: 80px;
-    border: 2px solid black;
+header > div{
+    height: 65px;
     background-color: var(--orange);
+    color: white;
+}
+
+/* Categories */
+.categories {
+    width: 20%;
+}
+
+.categories li{
+    list-style-type: none;
+    padding: 20px 5px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+/* User area */
+.user-area {
+    width: 20%;
+    padding: 20px 0;
+}
+
+.user-area li {
+    list-style-type: none;
+}
+
+.user-area a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 5px;  
+}
+
+.user-area ul {
+    justify-content: flex-end;
+}
+
+/* Logo */
+.logo {
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 20%;
 }
 
 /* MAIN */
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
