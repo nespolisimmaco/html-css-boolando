@@ -10,6 +10,10 @@ img {
 }
 
 /* GENERAL */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -20,11 +24,13 @@ img {
     width: 80%;
     margin: 0 auto;
     max-width: 1100px;
+    padding: 40px 0;
     /* debug */
     min-height: 600px;
     border: 2px solid black;
 }
 
+/* Columns */
 .col {
     margin-bottom: 1rem;
     width: calc(100% / 3 - 40px / 3);
@@ -35,4 +41,13 @@ img {
 
 .col-middle {
     margin: 0 20px 1rem;
+}
+
+/* Card details */
+.discount {
+    color: red;
+}
+
+.old-price {
+    text-decoration: line-through;
 }
