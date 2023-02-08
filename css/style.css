@@ -1,0 +1,38 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* GENERAL */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* MAIN */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    /* debug */
+    min-height: 600px;
+    border: 2px solid black;
+}
+
+.col {
+    margin-bottom: 1rem;
+    width: calc(100% / 3 - 40px / 3);
+    /* debug */
+    min-height: 300px;
+    border: 1px solid black;
+}
+
+.col-middle {
+    margin: 0 20px 1rem;
+}
