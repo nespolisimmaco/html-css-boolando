@@ -177,3 +177,41 @@ header > div{
     top: 10px;
     z-index: 99;
 }
+
+/* FOOTER */
+.foot {
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+.footer.flex {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.foot li {
+    list-style-type: none;
+    padding: 10px 10px 10px 0;
+}
+
+.foot a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-section {
+    flex-grow: 1;
+}
+
+.right-section {
+    width: 20%;
+}
+
+.right-section ul {
+    justify-content: space-between;
+}
+
+.right-section i {
+    font-size: 1.5rem;
+}
