@@ -9,6 +9,12 @@ img {
     max-width: 100%;
 }
 
+/* VARIABLES */
+:root {
+    --orange: #ff6900;
+    
+}
+
 /* GENERAL */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +23,23 @@ body {
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* HEADER */
+header {
+    /* debug */
+    height: 80px;
+    border: 2px solid black;
+    background-color: var(--orange);
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    /* debug */
+    height: 80px;
+    border: 2px solid black;
 }
 
 /* MAIN */
@@ -43,11 +66,16 @@ body {
     margin: 0 20px 1rem;
 }
 
-/* Card details */
+/* Card utilities */
 .discount {
     color: red;
 }
 
 .old-price {
     text-decoration: line-through;
+}
+
+/* CARD */
+.card-image {
+    position: relative;
 }
